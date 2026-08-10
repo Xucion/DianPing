@@ -7,7 +7,7 @@ public interface ILock {
      * @param timeoutSec
      * @return
      */
-    boolean trylock(long timeoutSec);
+    boolean tryLock(long timeoutSec);
 
     /**
      * 释放锁
